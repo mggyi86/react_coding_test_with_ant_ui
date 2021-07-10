@@ -6,7 +6,7 @@ import classes from "./styles.module.css";
 
 const Maker = (hotel) => {
   return (
-    <h4 className={classes.h2} key={hotel.code}>
+    <h4 className={classes.h2}>
       <Tooltip color="gold" title={hotel.name}>
         <HomeFilled />
       </Tooltip>
